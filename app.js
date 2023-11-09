@@ -5,7 +5,7 @@ const app = express();
 app.get('/', (request, response) => {
 	console.log(request.url);
 	console.log(request.method);
-	response.send('https://www.edu.goit.global/uk/progress');
+	response.send('<h1>Home page</h1>');
 });
 
 app.get('/contacts', (request, response) => {
